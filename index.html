@@ -28,7 +28,7 @@
 
         </div><!-- /header -->
 
-        <div role="main" class="content2">
+        <div role="main" class="ui-content">
             <div class="conimg">
                 <p>充滿吸引力的大阪，除了探訪擁有歷史文化的大阪城、瘋玩哈利波特的環球影城，大阪還有許多精彩的必遊景點</p>
                 <h2>
@@ -39,35 +39,29 @@
                 </p>
                 <img src="images/Japan_Osaka.jpg" alt="" >
             </div>
-
-            
-
+            <div data-role="collapsibleset" data-theme="a" data-content-theme="a" data-dialog="true">
+                <div data-role="collapsible">
+                    <h3>關於交通</h3>
+                <p>關西機場 – 大阪市區交通通常可選擇搭乘＃JR ：關空快速、Haruka 特急</p>
+                <p>大阪市區交通可選擇JR、地鐵、私鐵（近鐵）</p>
+                <p>大阪交通票券可選擇大阪交通卡、ICOCA</p>
+                </div>
+                <div data-role="collapsible">
+                    <h3>關於住宿</h3>
+                <p>APA飯店-難波站東</p>
+                <p>離地鐵難波站、日本橋站4分鐘，附近有道頓堀、激安殿堂、黑門市場</p>
+                <p>大阪難波奏飯店</p>    
+                <p>難波站28號出口步行3分鐘，離道頓堀近，知名地標「固力果先生」400公尺，旁邊有大國藥妝，對面是OCAT機場巴士總站</p>    
+                <p>Villa Fontaine飯店</p>    
+                <p>心齋橋站1號出口3分鐘，就在心齋橋商店街上，也是非常好的選擇</p>    
+                </div>
+                <div data-role="collapsible">
+                    <h3>關於我們</h3>
+                <p>喜愛旅遊的我們會不定時分享更多關於旅遊的大小事，詳情請鎖定我們的ig粉絲專頁！</p>
+                </div>
+            </div>
         </div><!-- /content -->
-        
-        <div data-role="collapsibleset" data-theme="a" data-content-theme="a">
-            <div data-role="collapsible">
-                <h3>關於交通</h3>
-            <p>關西機場 – 大阪市區交通通常可選擇搭乘＃JR ：關空快速、Haruka 特急</p>
-            <p>大阪市區交通可選擇JR、地鐵、私鐵（近鐵）</p>
-            <p>大阪交通票券可選擇大阪交通卡、ICOCA</p>
-            </div>
-            <div data-role="collapsible">
-                <h3>關於住宿</h3>
-            <p>APA飯店-難波站東</p>
-            <p>離地鐵難波站、日本橋站4分鐘，附近有道頓堀、激安殿堂、黑門市場</p>
-            <p>大阪難波奏飯店</p>    
-            <p>難波站28號出口步行3分鐘，離道頓堀近，知名地標「固力果先生」400公尺，旁邊有大國藥妝，對面是OCAT機場巴士總站</p>    
-            <p>Villa Fontaine飯店</p>    
-            <p>心齋橋站1號出口3分鐘，就在心齋橋商店街上，也是非常好的選擇</p>    
-            </div>
-            <div data-role="collapsible">
-                <h3>關於我們</h3>
-            <p>喜愛旅遊的我們會不定時分享更多關於旅遊的大小事，詳情請鎖定我們的ig粉絲專頁！</p>
-            </div>
-        </div>
-
         <div data-role="footer" data-position="fixed">
-            
             <div data-role="navbar">
                 <ul>
                     <li><a href="#page01" data-icon="bullets">環球影城</a></li>
@@ -76,15 +70,12 @@
                     <li><a href="#page04" data-icon="bullets" data-transition="slidedown">大阪城天守閣</a></li>
                 </ul>
             </div>
-         
             <h4>Copyright  &copy; 2020 yunru@wenzao DCAM</h4>
-
         </div><!-- /footer -->
-
     </div><!-- /page -->
 
 <!-- 第一頁面 -->
-<div data-role="page" id="page01" data-dialog="true">
+<div data-role="page" id="page01">
 
     <div data-role="header">
 
@@ -96,42 +87,42 @@
 
         <p>大阪環球影城每個年節都會有特定的主題活動，有許多園區與表演、商店以及遊樂設施，是到大阪絕對不能錯過的熱門景點 </p>
         <p>1.環球影城</p>
-        <p><img src="images/usj.jpg" alt="" width="350" lang="350"></p>
+        <div class="video-wrapper">
+            <p><img src="images/usj.jpg" alt="" width="350" lang="350"></p>
+        </div>
         <p>2.哈利波特魔法世界</p>
-        <p><img src="images/Harry Potter.jpg" alt="" width="350" lang="350"></p>
-        <p>3.紐約區</p>
-        <p><img src="images/newyork.jpg" alt="" width="350" lang="350"></p>
-        <p>4.環球奇境</p>
-        <p><img src="images/kid.jpg" alt="" width="350" lang="350"></p>
-        <div data-role="footer" data-position="fixed">
-
-            <div data-role="navbar">
-                <ul>
-                    <li><a href="#page02" data-icon="bullets">道頓堀商店街</a></li>
-                    <li><a href="#page03" data-icon="bullets">心齋橋</a></li>
-                    <li><a href="#page04" data-icon="bullets" data-transition="slidedown">大阪城天守閣</a></li>
-                    <li><a href="#page00" data-icon="bullets" data-transition="slidedown">回到首頁</a></li>
-                </ul>
+        <div class="video-wrapper">
+            <p><img src="images/Harry Potter.jpg" alt="" width="350" lang="350"></p>
+        </div>
+            <p>3.紐約區</p>
+            <div class="video-wrapper">
+                <p><img src="images/newyork.jpg" alt="" width="350" lang="350"></p>
             </div>
-        </div>    
-        <P>
-        <h2></h2>
-        </P>
+            <p>4.環球奇境</p>
+            <div class="video-wrapper">
+                <p><img src="images/kid.jpg" alt="" width="350" lang="350"></p>
+            </div>
 
+        
+        <div class="video-wrapper">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Uw6LiUNONEo" allowfullscreen></iframe>
+        </div>
     </div><!-- /content -->
-    <div class="video-wrapper">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/Uw6LiUNONEo" allowfullscreen></iframe>
-    </div>
     <div data-role="footer" data-position="fixed">
-
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#page00" data-icon="bullets">回到首頁</a></li>
+                <li><a href="#page02" data-icon="bullets">道頓堀商店街</a></li>
+                <li><a href="#page03" data-icon="bullets">心齋橋</a></li>
+                <li><a href="#page04" data-icon="bullets" data-transition="slidedown">大阪城天守閣</a></li>
+            </ul>
+        </div>
         <h4>Copyright  &copy; 2020 yunru@wenzao DCAM</h4>
-
     </div><!-- /footer -->
-
 </div><!-- /page -->
 
 <!-- 第二頁面 -->
-<div data-role="page" id="page02" data-dialog="true">
+<div data-role="page" id="page02" >
 
     <div data-role="header">
 
@@ -143,32 +134,35 @@
 
         <p>大阪又稱美食的廚房，道頓堀上的店家聚集了來自日本各縣市的經典美食，這裡最出名的拍照景點就是道頓堀榮橋旁的固力果跑跑人與街口會動的大螃蟹招牌，大阪的經典美食串炸、章魚燒、大阪燒在這也有許多經典老店</p>
         <p>1.一蘭拉麵</p>
-        <p><img src="images/roman.jpg" alt="" width="400" lang="400"></p>
-        <p>2.たこ梅</p>
-        <p><img src="images/tako.jpg" alt="" width="400" lang="400"></p>
-        <p>3.ROLL ICE CREAM FACTORY</p>
-        <p><img src="images/ice.jpg" alt="" width="400" lang="400"></p>
-        <div data-role="navbar">
-            <ul>
-                <li><a href="#page03" data-icon="bullets">心齋橋</a></li>
-                <li><a href="#page04" data-icon="bullets">大阪城天守閣</a></li>
-                <li><a href="#page01" data-icon="bullets">環球影城</a></li>
-                <li><a href="#page00" data-icon="bullets" data-transition="slidedown">回到首頁</a></li>
-            </ul>
+        <div class="video-wrapper">
+            <p><img src="images/roman.jpg" alt="" width="400" lang="400"></p>
         </div>
-
+        <p>2.たこ梅</p>
+        <div class="video-wrapper">
+            <p><img src="images/tako.jpg" alt="" width="400" lang="400"></p>
+        </div>
+        <p>3.ROLL ICE CREAM FACTORY</p>
+        <div class="video-wrapper">
+            <p><img src="images/ice.jpg" alt="" width="400" lang="400"></p>
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#page00" data-icon="bullets">回到首頁</a></li>
+                    <li><a href="#page01" data-icon="bullets">環球影城</a></li>
+                    <li><a href="#page03" data-icon="bullets">心齋橋</a></li>
+                    <li><a href="#page04" data-icon="bullets" data-transition="slidedown">大阪城天守閣</a></li>
+                </ul>
+            </div>
+            <h4>Copyright  &copy; 2020 yunru@wenzao DCAM</h4>
+        </div><!-- /footer -->
+        
     </div><!-- /content -->
-
-    <div data-role="footer" data-position="fixed">
-
-        <h4>Copyright  &copy; 2020 yunru@wenzao DCAM</h4>
-
-    </div><!-- /footer -->
 
 </div><!-- /page -->
 
 <!-- 第三頁面 -->
-<div data-role="page" id="page03" data-dialog="true">
+<div data-role="page" id="page03">
 
     <div data-role="header">
 
@@ -180,32 +174,34 @@
 
         <p>心齋橋身為日本大阪購物的景點之一。從小攤販到百貨公司，不論要找美食、小吃，還是瘋狂購物、採買美妝藥妝，心齋橋絕對是來到大阪不能不去的地方！</p>
         <p>1.LOWRYS FARM</p>
-        <p><img src="images/LOWRYS FARM.jpg" alt="" width="400" lang="400"></p>
-        <p>2.DHC 心齋橋專賣店</p>
-        <p><img src="images/DHC.jpg" alt="" width="400" lang="400"></p>
-        <p>3.PARK East</p>
-        <p><img src="images/PARK-East.jpg" alt="" width="400" lang="400"></p>
-        <div data-role="navbar">
-            <ul>
-                <li><a href="#page04" data-icon="bullets">大阪城天守閣</a></li>
-                <li><a href="#page02" data-icon="bullets">道頓堀商店街</a></li>
-                <li><a href="#page01" data-icon="bullets">環球影城</a></li>
-                <li><a href="#page00" data-icon="bullets" data-transition="slidedown">回到首頁</a></li>
-            </ul>
+        <div class="video-wrapper">
+            <p><img src="images/LOWRYS FARM.jpg" alt="" width="400" lang="400"></p>
         </div>
-
+        <p>2.DHC 心齋橋專賣店</p>
+        <div class="video-wrapper">
+            <p><img src="images/DHC.jpg" alt="" width="400" lang="400"></p>
+        </div>
+        <p>3.PARK East</p>
+        <div class="video-wrapper">
+            <p><img src="images/PARK-East.jpg" alt="" width="400" lang="400"></p>
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#page00" data-icon="bullets">回到首頁</a></li>
+                    <li><a href="#page01" data-icon="bullets">環球影城</a></li>
+                    <li><a href="#page02" data-icon="bullets">道頓堀商店街</a></li>
+                    <li><a href="#page04" data-icon="bullets" data-transition="slidedown">大阪城天守閣</a></li>
+                </ul>
+            </div>
+            <h4>Copyright  &copy; 2020 yunru@wenzao DCAM</h4>
+        </div><!-- /footer -->
     </div><!-- /content -->
-
-    <div data-role="footer" data-position="fixed">
-
-        <h4>Copyright  &copy; 2020 yunru@wenzao DCAM</h4>
-
-    </div><!-- /footer -->
 
 </div><!-- /page -->
 
 <!-- 第四頁面 -->
-<div data-role="page" id="page04" data-dialog="true">
+<div data-role="page" id="page04" >
 
     <div data-role="header">
 
@@ -217,23 +213,21 @@
 
         <p>如果流浪是你的天賦，那麼你一定是我最美的追逐-大阪城同時也有著浪漫的感覺</p>
         <p>大阪城是大阪最著名的旅遊觀光景點，也是大阪的象徵，它包括十三處被日本政府立為重要文化遺產的建築。 </p>
-        <p><img src="images/Osaka Castle.jpg" alt="" width="400" lang="400"></p>
-        <div data-role="navbar">
-            <ul>
-                <li><a href="#page03" data-icon="bullets">心齋橋</a></li>
-                <li><a href="#page02" data-icon="bullets">道頓堀商店街</a></li>
-                <li><a href="#page01" data-icon="bullets">環球影城</a></li>
-                <li><a href="#page00" data-icon="bullets" data-transition="slidedown">回到首頁</a></li>
-            </ul>
+        <div class="video-wrapper">
+            <p><img src="images/Osaka Castle.jpg" alt="" width="400" lang="400"></p>
         </div>
-        
-
     </div><!-- /content -->
 
     <div data-role="footer" data-position="fixed">
-
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#page00" data-icon="bullets">回到首頁</a></li>
+                <li><a href="#page01" data-icon="bullets">環球影城街</a></li>
+                <li><a href="#page02" data-icon="bullets">道頓堀商店</a></li>
+                <li><a href="#page03" data-icon="bullets" data-transition="slidedown">心齋橋</a></li>
+            </ul>
+        </div>
         <h4>Copyright  &copy; 2020 yunru@wenzao DCAM</h4>
-
     </div><!-- /footer -->
 
 </div><!-- /page -->
